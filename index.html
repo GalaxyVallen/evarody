@@ -97,7 +97,7 @@
     <section class="home">
       <img src="" alt="" class="banner" alt="banner" />
       <div class="home-container container">
-        <div class="image-container" data-title="xxxx">
+        <div class="image-container">
           <img src="assets/pt/wp.webp" alt="Foto Gusesa" id="imej" />
         </div>
         <div class="content-container">
@@ -127,53 +127,29 @@
         </div>
         <div class="about__col">
           <div class="edu">
-            <h2>Belajar</h2>
+            <h2>Platfrom</h2>
             <ul class="edu-wrap">
               <li>
-                <button class="scul">FreeCodeCamp</button>
+                <a href="https://www.freecodecamp.org"
+                  >FreeCodeCamp<i
+                    style="margin-left: 4px"
+                    class="fa-solid fa-up-right-from-square fa-xs"
+                  ></i
+                ></a>
               </li>
               <li>
-                <button class="scul">Sololearn</button>
+                <a href="https://www.sololearn.com"
+                  >Sololearn<i
+                    style="margin-left: 4px"
+                    class="fa-solid fa-up-right-from-square fa-xs"
+                  ></i
+                ></a>
               </li>
             </ul>
           </div>
-          <div class="show-up">
-            <h2>Spill</h2>
-            <div class="show-up__icons">
-              <a
-                href="https://www.instagram.com/gusesa_gag"
-                aria-label="my account"
-                target="_blank"
-              >
-                <i
-                  style="color: #e4405f"
-                  class="fa-brands fa-instagram fa-2x"
-                ></i>
-              </a>
-              <a
-                href="https://github.com/GalaxyVallen/"
-                aria-label="my account"
-                target="_blank"
-              >
-                <i style="opacity: 0.525" class="fa-brands fa-github fa-2x"></i>
-              </a>
-              <a
-                href="https://www.facebook.com/gusesa.abida"
-                aria-label="my account"
-                target="_blank"
-              >
-                <i
-                  style="color: #1877f2"
-                  class="fa-brands fa-facebook fa-2x"
-                ></i>
-              </a>
-              <a href="https://t.ly/Wq9y" aria-label="account" target="_blank">
-                <i
-                  style="color: #1db954"
-                  class="fa-brands fa-spotify fa-2x"
-                ></i>
-              </a>
-            </div>
+          <div class="quote">
+            <h2>Quote</h2>
+            <blockquote>I am me. There's no one else I'd rather</blockquote>
           </div>
         </div>
       </div>
@@ -435,7 +411,7 @@
           <label for="message">Pesan:<span>&nbsp;(diperlukan)</span></label>
           <textarea
             id="message"
-            placeholder="ad pesan?"
+            placeholder="??"
             name="message"
             rows="5"
             required
@@ -444,7 +420,7 @@
 
         <button type="submit" id="send">Kirim</button>
       </form>
-      <p class="note">blm <code class="ph">php</code> つ﹏⊂</p>
+      <p class="note">つ﹏⊂</p>
     </section>
     <!---->
     <footer id="foot">
@@ -471,7 +447,7 @@
             </div>
           </div>
           <div class="footer-projects">
-            <h2>Proyek</h2>
+            <h2>Projek</h2>
             <div>
               <a href="https://evarody.vercel.app" aria-label="Portofolio"
                 >Portofolio</a
@@ -512,15 +488,23 @@
           </a>
         </div>
         <div id="top"><i class="fa fa-chevron-up"></i></div>
-        <p>
-          Dibuat dengan ❤️ oleh
-          <a
-            href="https://www.instagram.com/gusesa_gag"
-            aria-label="account"
-            target="_blank"
-            >Gusesa</a
-          >
-        </p>
+        <div class="footer-p">
+          <p>
+            Dengan&nbsp;
+            <span class="dev"
+              ><svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Vercel</title>
+                <path d="M24 22.525H0l12-21.05 12 21.05z" />
+              </svg>
+            </span>
+            Vercel
+          </p>
+          <p>&copy; <span id="dt"></span> Gusesa</p>
+        </div>
       </div>
     </footer>
     <!---->
